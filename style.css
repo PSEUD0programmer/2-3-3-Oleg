@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #303030;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 4498px;
+    background: gainsboro;
+}
+
+.background {
+    width: 1110px;
+    padding: 0 90px;
+    background: white;
+}
+
+.background-footer {
+    width: 1110px;
+    padding: 0 90px;
+    background: #F6F9F3;
+}
+
+.main-nav {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.site-navigation {
+    flex: 80%;
+    display: flex;
+    text-transform: uppercase;
+    color: #999;
+    list-style: none;
+    padding: 9px 60px 5px;
+
+}
+
+.site-navigation li {
+    padding: 0 35px 0 0;
+}
+
+.site-navigation li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.search {
+    align-self: flex-end;
+}
+
+.line {
+    height: 2px;
+    background: yellowgreen;
+}
+
+.main-content {
+    padding-top: 16px;
+}
+
+.hero h1 {
+    padding: 0 0 35px 30px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+
+}
+
+.quote {
+    width: 700px;
+    margin: 110px 200px;
+    text-align: center;
+    font-style: normal;
+}
+
+.quote p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 45px;
+
+}
+
+.quote footer {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 25px 0 45px;
+}
+
+article {
+    display: flex;
+    margin: 0 40px 60px;
+    justify-content: space-between;
+}
+
+.fact-container {
+    width: 560px;
+}
+
+.fact-container h2 {
+    color: yellowgreen;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    text-decoration: underline;
+}
+
+.fact-container h3 {
+    padding-bottom: 5px;
+    color: #303030;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.fact-container p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.fact-article-img-flip {
+    order: -1;
+}
+
+.symptoms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.symptoms h2 {
+    padding-top: 65px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.symptoms-list {
+    padding: 90px 0 70px 70px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.symptoms-item {
+    padding-bottom: 25px;
+}
+
+.cta-button {
+    padding: 19px 121px;
+    background: yellowgreen;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.cta-button img {
+    padding: 0 0 3px 20px;
+}
+
+.gallery {
+    padding: 110px 87px;
+}
+
+.gallery-img {
+    display: flex;
+}
+
+.preview-item {
+    padding: 0 0 20px 20px;
+    list-style: none;
+    width: 170px;
+    height: 170px;
+}
+
+.gallery h2 {
+    padding-bottom: 110px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.page-footer {
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container p {
+    padding-bottom: 35px;
+}
+
+.footer-link {
+    display: block;
+    padding-bottom: 15px;
+    color: #9A9A9A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation-item {
+    padding-left: 90px;
+    list-style: none;
+
+}
+
+.footer-navigation-title {
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.footer-menu {
+    list-style: none;
+
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
